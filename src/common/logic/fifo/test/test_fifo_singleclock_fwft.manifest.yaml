@@ -11,4 +11,4 @@ simulators:
 
 parameters:
     WIDTH: 16
-    DEPTH: 32
+    DEPTH: [4, 8, 16, 32]

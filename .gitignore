@@ -13,6 +13,8 @@ config.log
 config.status
 libglip.pc
 libtool
+*.pyc
+.pydevproject
 
 # build output
 src/tools/glip_io_stress_test

@@ -1,0 +1,15 @@
+module: channel_multiplexer_test
+
+sources:
+  - ../verilog/channel_multiplexer.sv
+  - ../../fifo/verilog/fifo_dualclock_fwft.sv
+  - ../../fifo/verilog/fifo_dualclock_standard.sv
+
+toplevel: channel_multiplexer
+
+simulators:
+  - vcs
+
+parameters:
+    WIDTH: 16
+    CHANN: 4

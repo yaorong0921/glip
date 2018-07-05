@@ -1,0 +1,17 @@
+module: top_channel_multiplexing_test
+
+sources:
+  - ../verilog/top_channel_multiplexing.sv
+  - ../verilog/channel_demultiplexer.sv
+  - ../verilog/channel_multiplexer.sv
+  - ../../fifo/verilog/fifo_dualclock_fwft.sv
+  - ../../fifo/verilog/fifo_dualclock_standard.sv
+
+toplevel: top_channel_multiplexing
+
+simulators:
+  - vcs
+
+parameters:
+    WIDTH: 16
+    CHANN: 4
